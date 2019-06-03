@@ -3,7 +3,7 @@
     <vs-navbar v-model="activeItem" class="nabarx">
       <div slot="title">
         <vs-navbar-title>
-         <img src="../assets/logo.png" alt="logo" width="50">
+         <img src="../assets/logo.svg" alt="logo" width="50">
         </vs-navbar-title>
       </div>
       <vs-navbar-item class="menu-btn" index="0">
@@ -37,8 +37,10 @@ export default {
 <style>
 .nabarx{
     padding: 1em;
+    padding-left: 15em;
+    padding-right: 15em;
 }
 .menu-btn:hover a{
-    color: red
+    color: #006084
 }
 </style>
