@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="788" height="788" viewBox="0 0 788 788">
+  <g id="bitcoin" transform="translate(0 0)">
+    <path id="Path_1" data-name="Path 1" d="M516.276,106.394a306.572,306.572,0,0,0-45.15-15.258L448.345,0H339.655L316.874,91.136a310.476,310.476,0,0,0-82.446,34.2L153.82,76.966,76.966,153.82l48.368,80.608a310.472,310.472,0,0,0-34.2,82.446L0,339.655v108.69l91.136,22.781a310.475,310.475,0,0,0,34.2,82.446L76.966,634.18l76.854,76.854,80.608-48.368a311,311,0,0,0,82.446,34.2L339.655,788h108.69l22.781-91.136a311.006,311.006,0,0,0,82.446-34.2l80.608,48.368,76.854-76.854-48.368-80.608a310.471,310.471,0,0,0,34.2-82.446L788,448.345V339.655l-91.136-22.781a310.476,310.476,0,0,0-34.2-82.446l48.368-80.608L634.18,76.966l-80.608,48.368a311.389,311.389,0,0,0-37.3-18.94" transform="translate(0 0)" fill="#006084"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(40.759 40.759)">
+      <path id="Path_2" data-name="Path 2" d="M79.262,381.332l19.212-19.218,19.212,19.218L98.473,400.544Zm0,0" transform="translate(14.588 212.096)" fill="#ccdce5"/>
+      <path id="Path_3" data-name="Path 3" d="M362.109,98.47l19.212-19.212L400.539,98.47l-19.218,19.218Zm0,0" transform="translate(212.093 14.585)" fill="#ccdce5"/>
+      <path id="Path_4" data-name="Path 4" d="M79.266,98.473,98.477,79.262,117.7,98.473,98.477,117.692Zm0,0" transform="translate(14.591 14.588)" fill="#ccdce5"/>
+      <path id="Path_5" data-name="Path 5" d="M362.113,381.328l19.212-19.218,19.212,19.218L381.325,400.54Zm0,0" transform="translate(212.096 212.094)" fill="#ccdce5"/>
+      <path id="Path_6" data-name="Path 6" d="M24,224H51.172v27.172H24Zm0,0" transform="translate(-24 115.655)" fill="#ccdce5"/>
+      <path id="Path_7" data-name="Path 7" d="M424,224h27.172v27.172H424Zm0,0" transform="translate(255.31 115.655)" fill="#ccdce5"/>
+      <path id="Path_8" data-name="Path 8" d="M224,24h27.172V51.172H224Zm0,0" transform="translate(115.655 -24)" fill="#ccdce5"/>
+      <path id="Path_9" data-name="Path 9" d="M224,424h27.172v27.172H224Zm0,0" transform="translate(115.655 255.31)" fill="#ccdce5"/>
+      <path id="Path_10" data-name="Path 10" d="M101.9,370.555l48.049-48.043,19.212,19.212-48.043,48.049Zm0,0" transform="translate(30.392 184.444)" fill="#ccdce5"/>
+      <path id="Path_11" data-name="Path 11" d="M322.512,149.934l48.043-48.043L389.773,121.1l-48.049,48.043Zm0,0" transform="translate(184.444 30.389)" fill="#ccdce5"/>
+      <path id="Path_12" data-name="Path 12" d="M101.9,121.094l19.212-19.212,48.043,48.043-19.212,19.218Zm0,0" transform="translate(30.394 30.383)" fill="#ccdce5"/>
+      <path id="Path_13" data-name="Path 13" d="M322.512,341.719l19.212-19.212,48.043,48.043-19.212,19.212Zm0,0" transform="translate(184.444 184.441)" fill="#ccdce5"/>
+      <path id="Path_14" data-name="Path 14" d="M56,224h67.931v27.172H56Zm0,0" transform="translate(-1.655 115.655)" fill="#ccdce5"/>
+      <path id="Path_15" data-name="Path 15" d="M368,224h67.931v27.172H368Zm0,0" transform="translate(216.207 115.655)" fill="#ccdce5"/>
+      <path id="Path_16" data-name="Path 16" d="M224,56h27.172v67.931H224Zm0,0" transform="translate(115.655 -1.655)" fill="#ccdce5"/>
+      <path id="Path_17" data-name="Path 17" d="M224,368h27.172v67.931H224Zm0,0" transform="translate(115.655 216.207)" fill="#ccdce5"/>
+    </g>
+    <path id="Path_18" data-name="Path 18" d="M577.1,332.552C577.1,467.611,467.611,577.1,332.552,577.1S88,467.611,88,332.552,197.492,88,332.552,88,577.1,197.492,577.1,332.552Zm0,0" transform="translate(61.448 61.448)" fill="#faac2b"/>
+    <path id="Path_19" data-name="Path 19" d="M481.241,304.621A176.621,176.621,0,1,1,304.621,128,176.621,176.621,0,0,1,481.241,304.621Zm0,0" transform="translate(89.379 89.379)" fill="#fcdd5e"/>
+    <path id="Path_21" data-name="Path 21" d="M288,224h27.172v27.172H288Zm0,0" transform="translate(201.103 156.414)" fill="#ea732d"/>
+    <path id="Path_22" data-name="Path 22" d="M160,224h27.172v27.172H160Zm0,0" transform="translate(111.724 156.414)" fill="#ea732d"/>
+    <text id="S" transform="translate(328 485)" fill="#ea732d" font-size="250" font-family="StarJediLogoMonoLine, Star Jedi Logo MonoLine"><tspan x="0" y="0">S</tspan></text>
+  </g>
+</svg>
