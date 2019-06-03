@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>
+      <img width="250" src="../assets/logo.svg" alt="logo">
       <h1>Welcome {{ walletInfo.address }} to your blockchain explorer</h1>
       <!-- <vs-button v-on:click="login" color="primary" type="filled"
         >Primary</vs-button
@@ -48,7 +49,7 @@
 </script>
 
 <style scoped>
-  h1{
+  h1 {
     margin: 1.5em;
   }
 </style>
