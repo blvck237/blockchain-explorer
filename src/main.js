@@ -4,7 +4,9 @@ import Vuesax from "vuesax";
 import VueRouter from "vue-router";
 import router from "./router";
 
+import "material-icons/iconfont/material-icons.css";
 import "vuesax/dist/vuesax.css"; //Vuesax styles
+
 
 Vue.use(VueRouter);
 Vue.use(Vuesax);
