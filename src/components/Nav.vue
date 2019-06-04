@@ -1,10 +1,11 @@
 <template>
   <div>
     <vs-navbar v-model="activeItem" class="nabarx">
-      <div slot="title">
+      <div class="logo" slot="title">
         <vs-navbar-title>
-         <img src="../assets/logo.svg" alt="logo" width="50">
+         <img src="../assets/logo.svg" alt="logo" width="50"> 
         </vs-navbar-title>
+        <h3>Supcoin</h3>
       </div>
       <vs-navbar-item class="menu-btn" index="0">
         <router-link tag="a" to="/home">Home</router-link>
@@ -42,5 +43,11 @@ export default {
 }
 .menu-btn:hover a{
     color: #006084
+}
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
 }
 </style>
