@@ -35,7 +35,7 @@
     },
     methods: {
       getBlocks() {
-        request("supcoin/blocks")
+        request("/supcoin/blocks")
           .then(res => {
             this.blocks = res.data;
             console.log("Log: getBlocks -> res", res);
