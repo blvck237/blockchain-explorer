@@ -6,8 +6,7 @@ import Login from "@/pages/Login";
 import Transactions from "@/pages/Transactions";
 import Blocks from "@/pages/Blocks";
 import Map from "@/pages/Map";
-
-
+import Layout from "@/pages/Layout";
 
 Vue.use(Router);
 
@@ -16,32 +15,36 @@ export default new Router({
   routes: [
     {
       path: "/",
-      redirect: "/login"
+      component: Layout,
+      redirect: "/home",
+      children: [
+        {
+          path: "home",
+          name: "Home",
+          component: Home,
+        },
+        {
+          path: "transactions",
+          name: "Transactions",
+          component: Transactions,
+        },
+        {
+          path: "blocks",
+          name: "Blocks",
+          component: Blocks,
+        },
+        {
+          path: "map",
+          name: "Map",
+          component: Map,
+        }
+      ]
     },
-    {
-      path: "/home",
-      name: "Home",
-      component: Home
-    },
+
     {
       path: "/login",
       name: "Login",
       component: Login
-    },
-    {
-      path: "/transactions",
-      name: "Transactions",
-      component: Transactions
-    },
-    {
-      path: "/blocks",
-      name: "Blocks",
-      component: Blocks
-    },
-    {
-      path: "/map",
-      name: "Map",
-      component: Map
-    },
+    }
   ]
 });
