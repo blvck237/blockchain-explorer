@@ -1,6 +1,9 @@
-import firebase from "firebase/app";
-require("firebase/auth");
-require("firebase/firestore");
+import * as firebase from "firebase";
+
+// Add the Firebase services that you want to use
+import "firebase/auth";
+import "firebase/app";
+import "firebase/firestore";
 
 const facebookProvider = new firebase.auth.FacebookAuthProvider();
 facebookProvider.setCustomParameters({
@@ -21,6 +24,6 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-const db = firebase.firestore();
+var db = firebase.database();
 
 export { db, firebase, facebookProvider, googleProvider };
