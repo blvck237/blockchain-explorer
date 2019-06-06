@@ -1,7 +1,9 @@
 <template lang="html">
   <div>
+    <h1>Transactions</h1>
+    <h3>Explore all transactions made on the blockchain</h3>
     <div class="search">
-      <vs-input class="search-input" label-placeholder="Search transactions" size="large" v-model="search"v-on:input="searchTransaction($event)"/>
+      <vs-input class="search-input" label-placeholder="Search transactions by address,..." size="large" v-model="search"v-on:input="searchTransaction($event)"/>
       <!-- <vs-button v-on:click="searchTransaction" class="search-btn" color="#006084"  size="large" icon="search">Search</vs-button> -->
     </div>
     <vs-table pagination :max-items="max" :data="transactionList"> 
@@ -79,14 +81,10 @@
         // Reset items back to all of the items
         this.searching = true;
 
-        // On sauvegarde la valeur entrée dans la barre de recherche
-       // let val = ev.target.value
-
-        // Si la valeur n'est pas vide, on filtre les élements
         if (this.search && this.search.trim() != "") {
           this.transactionList = this.transactionList.filter(item => {
             this.searching = false;
-            return item.input.signature.s.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
+            return item.input.signature.s.toLowerCase().startsWith(this.search.toLowerCase()) === true;
           });
         } else {
           this.transactionList = this.transactionList_saved;

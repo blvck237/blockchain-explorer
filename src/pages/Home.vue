@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div id="home">
     <div>
-      <img width="250" src="../assets/logo.svg" alt="logo">
-      <h1>Welcome {{ walletInfo.address }} to your blockchain explorer</h1>
-      <!-- <vs-button v-on:click="login" color="primary" type="filled"
-        >Primary</vs-button
-      > -->
+      <img width="250" src="../assets/logo.svg" alt="logo" />
+      <h1>Welcome to your blockchain explorer</h1>
+      <div class="search">
+        <vs-input class="search-input" label-placeholder="Search transactions" size="large" v-model="search"/>
+        <vs-button v-on:click="searchTransaction" class="search-btn" color="#006084"  size="large" icon="search">Search</vs-button>
+      </div>
     </div>
   </div>
 </template>
@@ -18,7 +19,8 @@
       return {
         walletInfo: {
           address: "foo-add",
-          balance: 9000
+          balance: 9000,
+          search: ""
         }
       };
     },
@@ -43,13 +45,32 @@
           .catch(err => {
             console.log("Log: getWalletInfo -> err", err);
           });
+      },
+      searchTransaction(){
+        console.log(this.search)
       }
     }
   };
 </script>
 
 <style scoped>
+  #home {
+    text-align: center;
+  }
   h1 {
     margin: 1.5em;
+  }
+  .search{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+  }
+  .search-input{
+    text-align: left;
+    width: 50%;
+  }
+  .search-btn{
+    margin: 1em;
   }
 </style>

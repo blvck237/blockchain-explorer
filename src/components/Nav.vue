@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vs-navbar v-model="activeItem" class="nabarx">
+    <vs-navbar class="nabarx">
       <div class="logo" slot="title">
         <vs-navbar-title>
          <img src="../assets/logo.svg" alt="logo" width="50"> 
@@ -19,9 +19,8 @@
       <vs-navbar-item class="menu-btn" index="3">
         <router-link tag="a" to="/map">Livemap</router-link>
       </vs-navbar-item>
-      </vs-navbar-item>
       <vs-navbar-item class="menu-btn" index="4">
-        <router-link tag="a" to="/login">My wallet</router-link>
+        <router-link tag="a" to="/login">Login</router-link>
       </vs-navbar-item>
     </vs-navbar>
   </div>
